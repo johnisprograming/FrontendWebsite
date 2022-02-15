@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HAPPY SPOON</title>
+
+  <!-- load CSS -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">
+  <!-- Google web font "Open Sans" -->
+  <link rel="stylesheet" href="css/bootstrap.min.css"> <!-- https://getbootstrap.com/ -->
+  <link rel="stylesheet" href="css/fontawesome-all.min.css"> <!-- Font awesome -->
+  <link rel="stylesheet" href="css/tooplate-style.css"> <!-- Templatemo style -->
+
+  <script>
+    var renderPage = true;
+
+    if (navigator.userAgent.indexOf('MSIE') !== -1
+      || navigator.appVersion.indexOf('Trident/') > 0) {
+      /* Microsoft Internet Explorer detected in. */
+      alert("Please view this in a modern browser such as Chrome or Microsoft Edge.");
+      renderPage = false;
+    }
+  </script>
+
+</head>
+
+<body>
+
+  <!-- Loader -->
+  <div id="loader-wrapper">
+    <div id="loader"></div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+  </div>
+
+  <div class="tm-main">
+
+    <div class="tm-welcome-section">
+      <div class="container tm-navbar-container">
+        <div class="row">
+          <div class="col-xl-12">
+            <nav class="navbar navbar-expand-sm">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a href="index.html" class="nav-link tm-nav-link tm-text-white">홈</a>
+                </li>
+                <li class="nav-item active">
+                  <a href="about.html" class="nav-link tm-nav-link tm-text-white active">소개</a>
+                </li>
+                <li class="nav-item">
+                  <a href="login.html" class="nav-link tm-nav-link tm-text-white">로그인</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="container text-center tm-welcome-container">
+        <div class="tm-welcome">
+          <h1 class="text-uppercase mb-3 tm-site-name">HAPPY SPOON</h1>
+          <p class="tm-site-description">HAPPY SPOON소개</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="container">
+      <div class="tm-search-form-container">
+        <form action="index.html" method="GET" class="form-inline tm-search-form">
+          <div class="text-uppercase tm-new-release">HAPPY SPOON</div>
+          <div class="form-group tm-search-box">
+            <input type="text" name="keyword" class="form-control tm-search-input" placeholder="아이스크림 검색">
+            <input type="submit" value="검색" class="form-control tm-search-submit">
+          </div>
+          <div class="form-group tm-advanced-box">
+            <a href="#" class="tm-text-white">10개 이상 주문시 할인</a>
+          </div>
+        </form>
+      </div>
+
+      <div class="row tm-about-row tm-mt-big tm-mb-medium">
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 tm-about-col-left">
+          <div class="tm-v-center tm-bg-gray h-100 tm-about-text">
+            <h2 class="tm-text-brown mb-4 tm-about-h2">HAPPY SPOON의 약속</h2>
+            <p class="tm-about-description mb-0">지속적인 품질 개선을 통해 더 나은 제품을 고객에게 드릴 수 있으며, 고품질의 원료를 사용해 건강까지 챙길 수 있는
+              아이스크림입니다.</p>
+          </div>
+        </div>
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+          <div class="tm-about-img"></div>
+        </div>
+      </div>
+
+      <div class="row tm-about-row tm-mb-medium">
+        <div class="tm-tab-links-container">
+
+          <ul class="nav nav-tabs" id="tmTab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link tm-bg-gray tm-media-v-center tm-tab-link active" id="home-tab" data-toggle="tab"
+                href="#tab1" role="tab" aria-controls="home" aria-selected="true">
+                <p class="media-body mb-0 tm-media-link">품질</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link tm-bg-gray tm-media-v-center tm-tab-link" id="profile-tab" data-toggle="tab"
+                href="#tab2" role="tab" aria-controls="profile" aria-selected="false">
+                <p class="media-body mb-0 tm-media-link">위생</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link tm-bg-gray tm-media-v-center tm-tab-link" id="contact-tab" data-toggle="tab"
+                href="#tab3" role="tab" aria-controls="contact" aria-selected="false">
+                <p class="media-body mb-0 tm-media-link">원료</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link tm-bg-gray tm-media-v-center tm-tab-link" id="contact-tab" data-toggle="tab"
+                href="#tab4" role="tab" aria-controls="contact" aria-selected="false">
+                <p class="media-body mb-0 tm-media-link">고객</p>
+              </a>
+            </li>
+          </ul>
+
+        </div>
+
+        <div class="tm-tab-content-container">
+          <div class="tab-content h-100 tm-bg-gray" id="myTabContent">
+            <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="tab1-tab">
+              <div class="media tm-media-2">
+                <div class="media-body tm-media-body-2">
+                  <h2 class="mb-4 tm-text-pink-dark tm-media-2-header">지속적인 품질관리</h2>
+                  <p class="mb-4">품질 관리를 통해 신선한 맛 그대로 유지하려 노력하고 있습니다.</p>
+                  <p class="mb-4">아이스크림의 제조에서 소비자에게 이르기까지 최상의 품질을 유지하기 위해 총 2000여 개의 체크 포인트를 두고 완벽한 제품 출시에 최선을 다하고 있습니다.
+                    유통
+                    단계에서는 영하25도의 균일한 온도를 지켜 소비자들에게 아이스크림 생산 당시의 신선한 맛을 그대로 전달하려고 노력하고 있습니다.</p>
+                  <a href="#" class="btn btn-secondary">더보기</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
+              <div class="media tm-media-2">
+                <div class="media-body tm-media-body-2">
+                  <h2 class="mb-4 tm-text-pink-dark tm-media-2-header">철저한 위생관리</h2>
+                  <p class="mb-4">작업장의 위생관리 및 영업자 준수사항을 준수</p>
+                  <p class="mb-4">정기적인 작업공간의 위생관리 및 영업자의 교육을 통해서 더 나은 제품을 전달하려 노력하고 있습니다. 또한 배송시 제품의 유지온도에 많은 신경을 쓰고
+                    있습니다.</p>
+                  <a href="#" class="btn btn-secondary">더보기</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="tab3-tab">
+              <div class="media tm-media-2">
+                <div class="media-body tm-media-body-2">
+                  <h2 class="mb-4 tm-text-pink-dark tm-media-2-header">우수한 원료수급을 통한 신선한 맛</h2>
+                  <p class="mb-4">원료의 생산지의 철저한 관리를 통한 공급으로 고객에게 건강을 드리겠습니다.</p>
+                  <p class="mb-4">신선한 자연의 맛을 살리기 위해 100% 천연원료를 사용한다. 또한 인공첨가제나 가공된 유제품을 사용하지 않아 자연의 향과 질감이 살아 있는 것이
+                    특징입니다.</p>
+                  <a href="#" class="btn btn-secondary">더보기</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-pane fade" id="tab4" role="tabpanel" aria-labelledby="tab4-tab">
+              <div class="media tm-media-2">
+                <div class="media-body tm-media-body-2">
+                  <h2 class="mb-4 tm-text-pink-dark tm-media-2-header">고객관리를 통한 성장</h2>
+                  <p class="mb-4">고객의 소리에 귀를 기울여 더 나은 서비스를 제공하기 위해 노력합니다.</p>
+                  <p class="mb-4">식품의약품안전처의 식품 등의 표시기준에 따르면 아이스크림 및 빙과류는 제조연월일을 표시해야한다. 다만 예외적으로 유통기한 표시는 생략할 수 있다.
+                    아이스크림은 통상 영하 18도 이하의 냉동 보관을 하기 때문에 식품 변질 및 세균 번식 가능성이 낮다는 이유로 표기하지 않는 경우가 많습니다. 하지만
+                    아이스크림에 유통기한을 표시하여, 유통기한이 지난 상품에 무조건적인 교환을 해드립니다.</p>
+                  <a href="#" class="btn btn-secondary">더보기</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+      <div>
+        <div>
+          <iframe width="2000" height="600" src="https://www.youtube.com/embed/LaDip5z6Nys" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <br></br><br></br><br></br>
+      <div class="row tm-mb-medium">
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 mb-4">
+          <h4 class="mb-4 tm-font-300" align="center center">위로</h4>
+          <a href="#" class="tm-text-blue-dark d-block mb-2" align="center center">위로가기</a>
+        </div>
+      </div>
+      <!-- Bottom links -->
+      <!-- <div class="row tm-about-row tm-mb-medium">
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 mb-4">
+          <h4 class="mb-4 tm-font-300">Latest Albums</h4>
+          <a href="#" class="tm-text-blue-dark d-block mb-2">Sed fringilla consectetur</a>
+          <a href="#" class="tm-text-blue-dark d-block mb-2">Mauris porta nisl quis</a>
+          <a href="#" class="tm-text-blue-dark d-block mb-2">Quisque maximus quam nec</a>
+          <a href="#" class="tm-text-blue-dark d-block">Class aptent taciti sociosqu ad</a>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 mb-4">
+          <h4 class="mb-4 tm-font-300">Our Pages</h4>
+          <a href="#" class="tm-text-blue-dark d-block mb-2">Nam dapibus imperdiet</a>
+          <a href="#" class="tm-text-blue-dark d-block mb-2">Primis in faucibus orci</a>
+          <a href="#" class="tm-text-blue-dark d-block mb-2">Sed interdum blandit dictum</a>
+          <a href="#" class="tm-text-blue-dark d-block">Donec non blandit nisl</a>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
+          <h4 class="mb-4 tm-font-300">Quick Links</h4>
+          <a href="#" class="tm-text-blue-dark d-block mb-2">Nullam scelerisque mauris</a>
+          <a href="#" class="tm-text-blue-dark d-block mb-2">Vivamus tristique enim non orci</a>
+          <a href="#" class="tm-text-blue-dark d-block mb-2">Luctus et ultrices posuere</a>
+          <a href="#" class="tm-text-blue-dark d-block">Cubilia Curae</a>
+        </div>
+      </div> -->
+      <!-- FOOTER 자리 -->
+    </div> <!-- .container -->
+
+  </div> <!-- .main -->
+  <!-- load JS -->
+  <script src="js/jquery-3.2.1.slim.min.js"></script> <!-- https://jquery.com/ -->
+  <script src="js/bootstrap.min.js"></script> <!-- https://getbootstrap.com/ -->
+  <script>
+
+    /* DOM is ready
+    ------------------------------------------------*/
+    $(function () {
+
+      if (renderPage) {
+        $('body').addClass('loaded');
+      }
+
+      $('.tm-current-year').text(new Date().getFullYear());  // Update year in copyright
+    });
+
+  </script>
+</body>
+
+</html>
